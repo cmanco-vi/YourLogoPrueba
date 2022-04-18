@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto de demostración usando Serenity y Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="77e6714007c75d052c326b05c037ad686db8848962900cbdba1c141c83b1d7a4.html">Yourlogo</a></span>
+                > <span class="truncate-60"><a
+                    href="33e4e11d2dc2530c8c752beee4ef4a7af6078661bc25b5fa5598434d045d0761.html">Create new list </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-04-2022 16:08</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Yourlogo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to add new items to the wish list
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7446f36fd1fbb07ae2f63087501fa9191efe85d94e7068a8ed5582199a79281f.html">Hu3
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8805059bee76baf5278e8ff58b8f6dc8150ccc4e64cc3217279ae806a1488276.html">Prueba2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Create new list
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given than Crihstian wants to visit the yourlogo page<br>And he login to the yourlogo page<br>When Being in the MY WISH LISTS section enter a new name for the wish list<br>Then he validates that the new wishlist has been created</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="04caf51369dfec6342431fcf58ee934486081f573e12fd909d01d142f8de3bb1.png" title="Create new list #1: {email=cmanco@choucairtesting.com, password=abc123, name=Nuevalista}" width="1366"/>
+                <img src="ab86a1a2c6eda7a8c56a23a51a49a50fc5a2f3d6f0812e4ec0afdfbf2cf5e324.png" title="Given than Crihstian wants to visit the yourlogo page" width="1366"/>
+                <img src="ab86a1a2c6eda7a8c56a23a51a49a50fc5a2f3d6f0812e4ec0afdfbf2cf5e324.png" title="Crihstian opens the Your logo page" width="1366"/>
+                <img src="270b4a6b65c5fabb8e83aa1022cefb2fd2e4cecc40d35b12feb52f4949818b26.png" title="And he login to the yourlogo page
+| email | password |
+| cmanco@choucairtesting.com | abc123 |" width="1366"/>
+                <img src="efb467e8bc4fb61562205d2f702e9e0b8bfee0a67d7c755398e771fc0bc5f444.png" title="Crihstian clicks on Boton login" width="1366"/>
+                <img src="edb516a358cc054f99d71f064f0a39a28cce264aa806b795a1ebed3a09a1fc92.png" title="Crihstian enters 'cmanco@choucairtesting.com' into Caja de texto correo" width="1366"/>
+                <img src="eb6dbb2db37d2eed4f2969d2466f452935c2ad2e6e758604b67560a5269175fa.png" title="Crihstian enters 'abc123' into Caja de texto contrasena" width="1366"/>
+                <img src="270b4a6b65c5fabb8e83aa1022cefb2fd2e4cecc40d35b12feb52f4949818b26.png" title="Crihstian clicks on Boton entrar" width="1366"/>
+                <img src="04caf51369dfec6342431fcf58ee934486081f573e12fd909d01d142f8de3bb1.png" title="When Being in the MY WISH LISTS section enter a new name for the wish list
+| name |
+| Nuevalista |" width="1366"/>
+                <img src="04caf51369dfec6342431fcf58ee934486081f573e12fd909d01d142f8de3bb1.png" title="Crihstian clicks on Boton My Wishlists" width="1366"/>
+                <img src="97f63a640b86ca9218f00f42d46a55d6ed6e8778ad2a21551b2bf872d6d29cf1.png" title="Crihstian enters 'Nuevalista' into Caja de texto nombre" width="1366"/>
+                <img src="04caf51369dfec6342431fcf58ee934486081f573e12fd909d01d142f8de3bb1.png" title="Crihstian clicks on Boton Save" width="1366"/>
+                <img src="04caf51369dfec6342431fcf58ee934486081f573e12fd909d01d142f8de3bb1.png" title="Then he validates that the new wishlist has been created" width="1366"/>
+                <img src="04caf51369dfec6342431fcf58ee934486081f573e12fd909d01d142f8de3bb1.png" title="Then result2: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
